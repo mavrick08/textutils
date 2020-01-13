@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>I am a Template</h1>
+<!--    {{name}} is from {{location}}-->
+
+    <h2>Welcome to Text Analyser. Enter your Text Below.:</h2>
+
+    <form action="/analyze" method="get">
+        <textarea name="text" spellcheck="false" style="margin: 0px; width: 1342px; height: 226px;">
+
+        </textarea>
+
+        <input type="checkbox" name="removepunc">REMOVE PUNCTUATIONS </br>
+        <input type="checkbox" name="fullcaps">UPPER CASE</br>
+        <input type="checkbox" name="newlineremove">NEW LINE REMOVER</br>
+        <input type="checkbox" name="spaceremover">SPACE REMOVER</br>
+        <input type="checkbox" name="charcount">CHARACTER COUNT</br>
+        <button type="submit" style="width: 200px;height: 73px;">Analyse Text</button>
+
+    </form>
+
+</body>
+</html>
